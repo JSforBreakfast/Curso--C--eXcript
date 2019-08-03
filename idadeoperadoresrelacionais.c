@@ -4,7 +4,7 @@
 
 
 
-int main {
+int main () {
 
     int iJ, iI;
     iJ = 17;
@@ -12,15 +12,20 @@ int main {
 
     int idade = 0;
 
-    printf("Digite a idade de uma pessoa: \n");
+    printf("\nDigite a idade de uma pessoa: \n");
     scanf("%i", &idade);
 
     if (idade <= iJ){
 
-        printf("n\Diga meu jovem!\n")
+        printf("\nDiga meu jovem!\n");
     }else{
         if (idade >= iI){
-            printf("\nDiga meu nobre!\n")
+            printf("\nDiga meu nobre!\n");
+            }else{
+                    if((idade > iJ)&&(idade < iI)){
+
+                      printf("\nDiga meu rei!\n");
+                }
             }
         }
 return 0;
