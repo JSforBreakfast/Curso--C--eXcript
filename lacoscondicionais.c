@@ -9,7 +9,7 @@ int main()
     char op  = '0';
 
     do{
-        num1, num2, resultado = 0;
+        num1 = num2 = resultado = 0;
 
         printf("\n(0) sair do programa\n");
         printf("(1) somar\n");
